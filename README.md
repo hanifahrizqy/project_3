@@ -30,10 +30,9 @@ This project sets up Apache Airflow and Apache Spark in a single Docker containe
 
 ## Directory Structure
 
-- `dags/`: Contains example DAGs.
-  - `example_bash_operator.py`: Example DAG using BashOperator.
-  - `sample_dag.py`: Sample DAG with basic tasks.
-  - `xcom_dag.py`: Example DAG demonstrating XCom usage.
+- `example_bash_operator.py`: Example DAG using BashOperator.
+- `sample_dag.py`: Sample DAG with basic tasks.
+- `xcom_dag.py`: Example DAG demonstrating XCom usage.
 - `docker-compose.yaml`: Docker Compose configuration.
 - `Dockerfile`: Dockerfile to build the Docker image.
 - `requirements.txt`: Python dependencies.
